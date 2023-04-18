@@ -1,0 +1,13 @@
+.menuNav{
+	color: black;	
+	position: relative;
+	top: 45%;
+	align-content: flex-end;
+	padding-left: 60px;
+}
+
+.menuDropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
