@@ -1,13 +1,21 @@
 .menuNav{
 	color: black;	
 	position: relative;
-	top: 45%;
+	top: 35%;
 	align-content: flex-end;
-	padding-left: 60px;
+	padding-right: 70px;
 }
 
 .menuDropdown {
   position: absolute;
   top: 100%;
   left: 0;
+}
+
+.logoNav{
+	position: relative;
+	top: 45%;
+	align-content: flex-end;
+	padding-left: 70px;
+	padding-top: 40;
 }
