@@ -125,7 +125,6 @@ ul li {
 }
 #header.fixed .nav-toggle {
 	top: 18px;
-	left: 0;
 }
 .navigation.open {
 	opacity: 0.9;
@@ -140,8 +139,6 @@ ul li {
 }
 .navigation li {
 	display: inline-block;
-	z-index: 1000;
-
 }
 .navigation, .navigation a {
 	color: rgba(0, 0, 0, 1);
@@ -292,7 +289,7 @@ ul li {
 	 Hero content
 -------------------------------------------------------------------------------*/
 .hero {
-	margin-top: 2%;
+	margin-top: 10%;
 }
 .hero-content {
 }
