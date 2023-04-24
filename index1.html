@@ -10,6 +10,12 @@
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Saboaria Natural da Terra - Para uma pele naturalmente saudável</title>
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/flexslider.css">
 <link rel="stylesheet" href="css/jquery.fancybox.css">
@@ -24,13 +30,17 @@
 <!-- header top section -->
 <section class="banner" role="banner">
   <header id="header">
-    <div class="header-content clearfix"> <a class="logo" href="index.html"><img src="images/logo.png" alt="" width="30%"></a>
-      <div class="bg-dark">
+      <div class="header-content clearfix imagem"> 
+        <a class="logo" href="index.html"><img src="images/logo(1).png" alt=""></a>
+      <div>
       <nav class="navigation" role="navigation">
-        <ul class="primary-nav bg-dark">
+        <ul class="primary-nav" style="padding-top : 10px;">
+          <li>
+          </li>
           <li>
             <div class="dropdown">
-              <a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a type="button" id="dropdownMenuButton" data-toggle="dropdown" 
+              aria-haspopup="true" aria-expanded="false">
                 <span>Home</span>
               </a>
             </div>
@@ -38,7 +48,7 @@
           <li>
             <div class="dropdown">
               <a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span>Catálogo<i class="fa-solid fa-caret-down"></i></span>
+                <span>Catálogo</span>
               </a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#">Action</a>
@@ -50,7 +60,7 @@
           <li>
             <div class="dropdown">
               <a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span>Dropdown button <i class="fa-solid fa-caret-down"></i></span>
+                <span>Dropdown button </span>
               </a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#">Action</a>
@@ -62,7 +72,7 @@
           <li>
             <div class="dropdown">
               <a class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span>Dropdown button <i class="fa-solid fa-caret-down"></i></span>
+                <span>Dropdown button </span>
               </a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#">Action</a>
@@ -72,38 +82,49 @@
             </div>
           </li>
 
-          <li>
+<!--           <li>
             <a href="https://wa.me/5511979565219" target="_blank"><i class="fab fa-whatsapp"></i> (11)97956-5219</a>
-          </li>
+          </li> -->
         </ul>
       </nav>
     </div>
       <a href="#" class="nav-toggle">Menu<span></span></a> </div>
   </header>
 </section>
-<!-- header top section --> 
-<!-- header content section -->
-<section id="hero" class="section ">
+
+<section id="hero" class="section " style="padding-top:150px ;">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 col-sm-6 hero ">
-        <div class="hero-content">
-          <h1>SABONETES NATURAIS, FITOTERÁPICOS E ARTESANAIS.</h1>
+      <div class="col-md-12 col-sm-6">
+        <!--inicio carrossel inicial-->
+         <div id="image-slider">
+          <div class=" jcarousel-skin-tango"><div class="jcarousel-container jcarousel-container-horizontal" style="position: relative; display: block;"><div class="jcarousel-clip jcarousel-clip-horizontal" style="overflow: hidden; position: relative;"><ul id="mycarousel" class="jcarousel-list jcarousel-list-horizontal" style="overflow: hidden; position: relative; top: 0px; left: 0px; margin: 0px; padding: 0px; width: 2466px;">
+            <li class="first jcarousel-item jcarousel-item-horizontal jcarousel-item-1 jcarousel-item-1-horizontal" jcarouselindex="1" style="float: left; list-style: none; width: 274px;"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt=""></a></li>
+            <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-2 jcarousel-item-2-horizontal" jcarouselindex="2" style="float: left; list-style: none; width: 274px;"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt=""></a></li>
+            <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-3 jcarousel-item-3-horizontal" jcarouselindex="3" style="float: left; list-style: none; width: 274px;"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt=""></a></li>
+            <li class="first jcarousel-item jcarousel-item-horizontal jcarousel-item-4 jcarousel-item-4-horizontal" jcarouselindex="4" style="float: left; list-style: none; width: 274px;"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt=""></a></li>
+            <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-5 jcarousel-item-5-horizontal" jcarouselindex="5" style="float: left; list-style: none; width: 274px;"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt=""></a></li>
+            <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-6 jcarousel-item-6-horizontal" jcarouselindex="6" style="float: left; list-style: none; width: 274px;"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt=""></a></li>
+            <li class="first jcarousel-item jcarousel-item-horizontal jcarousel-item-7 jcarousel-item-7-horizontal" jcarouselindex="7" style="float: left; list-style: none; width: 274px;"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt=""></a></li>
+            <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-8 jcarousel-item-8-horizontal" jcarouselindex="8" style="float: left; list-style: none; width: 274px;"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt=""></a></li>
+            <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-9 jcarousel-item-9-horizontal" jcarouselindex="9" style="float: left; list-style: none; width: 274px;"><a href="#"><img width="280" height="190" src="images/280x190.gif" alt=""></a></li>
+          </ul></div><div class="jcarousel-prev jcarousel-prev-horizontal jcarousel-prev-disabled jcarousel-prev-disabled-horizontal" disabled="true" style="display: block;"></div><div class="jcarousel-next jcarousel-next-horizontal" disabled="false" style="display: block;"></div></div></div>
         </div>
+        <!--fim do carrosel-->
       </div>
     </div>
   </div>
 </section>
 <!-- header content section --> 
 <!-- portfolio grid section -->
-<section id="portfolio" style="padding-top: 0px;">
+<section id="portfolio" style="padding-top: 0px; padding-bottom: 0;">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <hr class="section">
       </div>
     </div>
-    <div class="row" style="padding: 10px;">
+    <div class="row" style="padding:0px;">
       <div class="col-sm-3 portfolio-item"> <a href="argilaverde.html" class="portfolio-link">
         <div class="card ">
         <div class="caption">
